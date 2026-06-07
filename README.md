@@ -3,6 +3,7 @@ Specification documentation for the RHINO receiver and other systems
 
 * [Antenna probe](antenna-probe.md)
 * [Calibration loads](calibration-loads.md)
+* [Control cable](control-cable.md)
 * [Dipole antenna](dipole-antenna.md)
 * [Horn antenna](horn-antenna.md)
 * [Low-noise amplifiers](lnas.md)
