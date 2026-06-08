@@ -8,6 +8,7 @@ Specification documentation for the RHINO receiver and other systems
 * [Horn antenna](horn-antenna.md)
 * [Low-noise amplifiers](lnas.md)
 * [Power supply](power-supply.md)
+* [Receiver boxes](receiver-boxes.md)
 * [RF filters](rf-filters.md)
 * [RF switches](rf-switches.md)
 * [Site](site.md)
