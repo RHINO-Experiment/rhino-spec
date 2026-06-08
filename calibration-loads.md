@@ -34,10 +34,18 @@ Heated termination (PTC heater)
 Similar to the above but using a PTC thermistor heater pad instead. This self-
 regulates its temperature.
 
+Currently on 5 V supply with maximum current draw of 1 A
+
 Noise diode
 -----------
-28V noise diode that works well at 24V. Effective temperature: TBC.
+28V noise diode that works well at 24V. Effective temperature: $\approx$ 2000 K (to be fully characterised)
+
+Current Draw: 4 mA
+
+BNC Connection and SMA output.
 
 Reflection (VNA) calibrators
 ----------------------------
 A SOLT kit that came with the NanoVNA.
+
+Long cable with an open and short on the end of SPDT switch for delay.
