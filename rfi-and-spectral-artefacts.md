@@ -13,6 +13,27 @@ Template report
 
 Description and further notes and plots.
 
+EMI Through Temperature-Switch Circuit Contact
+---------------
+ * **Observed:** 2026-05-12
+ * **Reporter:** Jordan Norris
+ * **Receiver config:** RSPdx SDR with full set up.
+ * **Other config notes:** Thermistors in contact with SP8T switch. Temp/Switch Circuits in contact with long cable box.
+
+<img width="50%" alt="Note broader band EMI across the spectrum in multiple locations and across calibrators"
+     src="https://github.com/user-attachments/assets/d3e46d7e-5263-4bc2-bd80-562026415f65" />
+
+It was found that EMI was leaking into the RF chain through the thermistors as well as contact with the
+long cable box and the switch/temperature sensor circuitry.
+
+This was rectified with the placement of insulating material between the circuits and thermistors. See
+plot below for the spectra post-fix.
+
+<img width="50%" alt="Spectra of calibrators after adding insulating material. Note the difference in the EMI regions."
+     src="https://github.com/user-attachments/assets/25cf6b8b-d723-4e2d-844b-58c509326326" />
+
+
+
 Persistent strong and narrow 72 MHz line (RSPdx clock)
 ------------------------------------------------------
  * **Observed:** Spring 2026
