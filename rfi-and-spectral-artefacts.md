@@ -13,6 +13,18 @@ Template report
 
 Description and further notes and plots.
 
+Persistent strong and narrow 72 MHz line (RSPdx clock)
+------------------------------------------------------
+ * **Observed:** Spring 2026
+ * **Reporter:** Jordan Norris / Phil Bull
+ * **Receiver config:** RSPdx SDR tuned to around 70 MHz
+ * **Other config notes:** Any config.
+
+A strong and relatively narrow 72 MHz line is seen persistently with the RSPdx. The internal clock 
+frequency is 24 MHz, and 72 = 3 x 24 MHz, so we suspect that this is the clock leaking. There is 
+not much that can be done about this. It appears to cause higher-order products at high gain 
+settings.
+
 
 Harmonics around 72 MHz with 400 kHz spacing (Arduino associated)
 -----------------------------------------------------------------
