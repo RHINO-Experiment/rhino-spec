@@ -19,3 +19,6 @@ Specification documentation for the RHINO receiver and other systems
 * [Data acquisition](data-acquisition.md)
 * [Noise-wave calibration](noise-wave-calibration.md)
 * [RFI flagging](rfi-flagging.md)
+
+## Observing
+* [RFI and spectral artefacts](rfi-and-spectral-artefacts.md)
