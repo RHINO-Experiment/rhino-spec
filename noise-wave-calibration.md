@@ -1,6 +1,7 @@
 Noise-wave calibration
 ======================
 _The code and methods for doing noise-wave calibration_
+
 Last updated: 2026-06-08
 
 We currently use the noise wave calibration method of Kirkham et al.
