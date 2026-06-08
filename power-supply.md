@@ -61,3 +61,7 @@ the maximum expected.
 The backend box is currently an enclosed metal case, with no internal airflow or heatsinks. 
 It is not clear yet whether active cooling will be needed inside the case. The same is 
 true of the frontend box. Both boxes will be producing tens of Watts of heat internally.
+
+<img width="30%" alt="PXL_20260604_150919978" src="https://github.com/user-attachments/assets/dc7bffa8-127b-402c-8806-236a72182372" />
+<img width="30%" alt="PXL_20260519_150711902" src="https://github.com/user-attachments/assets/e087eae3-e271-42c2-b1ef-5312e8b39002" />
+
