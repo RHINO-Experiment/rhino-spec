@@ -24,6 +24,11 @@ glass fibre insulation seems essentially unaffected by the heat.
 The box is closed with bolts at the top. The aluminium block gets very hot during 
 operation, and must not be touched - it will boil water drops on contact.
 
+<img width="25%" alt="1000077903" src="https://github.com/user-attachments/assets/021c5307-f1b8-42fd-b304-932229162d88" />
+<img width="25%" alt="1000077906" src="https://github.com/user-attachments/assets/4c673915-d95e-4375-ba34-4538f42a1ecf" />
+<img width="25%" alt="1000078806" src="https://github.com/user-attachments/assets/9cfa2002-428c-463e-b291-381131fe834b" />
+<img width="25%" alt="1000078807" src="https://github.com/user-attachments/assets/71fb35b5-20d7-464d-9f90-cd762a54b85e" />
+
 Heated termination (PTC heater)
 -------------------------------
 Similar to the above but using a PTC thermistor heater pad instead. This self-
