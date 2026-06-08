@@ -1,6 +1,7 @@
 # rhino-spec
 Specification documentation for the RHINO receiver and other systems
 
+## Hardware
 * [Antenna probe](antenna-probe.md)
 * [Calibration loads](calibration-loads.md)
 * [Control cable](control-cable.md)
@@ -13,3 +14,8 @@ Specification documentation for the RHINO receiver and other systems
 * [RF switches](rf-switches.md)
 * [Site](site.md)
 * [Software-defined radio](sdr.md)
+
+## Software
+* [Data acquisition](data-acquisition.md)
+* [Noise-wave calibration](noise-wave-cal.md)
+* [RFI flagging](rfi-flagging.md)
