@@ -5,7 +5,7 @@ Last updated: 2026-06-08
 
 MomentRFI state-wise cleaning of calibration waterfalls
 ------------------------------------------------------
- * **Observed:** 24-03-2026
+ * **Observed:** 24-03-2026 (by Jordan Norris)
  * **Reporter:** Rashi Srivastava
  * **Receiver config:** RHINO calibration observations with switched calibration states.
  * **Other config notes:** Cleaning applied state-by-state after removing switch-settling spectra.
