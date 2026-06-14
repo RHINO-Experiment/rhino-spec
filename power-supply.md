@@ -64,4 +64,8 @@ true of the frontend box. Both boxes will be producing tens of Watts of heat int
 
 <img width="30%" alt="PXL_20260604_150919978" src="https://github.com/user-attachments/assets/dc7bffa8-127b-402c-8806-236a72182372" />
 <img width="30%" alt="PXL_20260519_150711902" src="https://github.com/user-attachments/assets/e087eae3-e271-42c2-b1ef-5312e8b39002" />
+<img width="30%" alt="1000079220" src="https://github.com/user-attachments/assets/decf4c83-ef44-47ad-b339-6419818a3920" />
+<img width="30%" alt="1000079410" src="https://github.com/user-attachments/assets/9e71c5a4-f9a4-4d4a-8f1e-babe30ecc4cd" />
+
+
 
