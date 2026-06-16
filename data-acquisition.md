@@ -10,6 +10,8 @@ Observation settings regarding the hardware are edited in the [obs_config.yaml](
 
 This is split into several groups regarding each piece of hardware.
 
+The scripts loop until a predetirmined amount of time has passed that is specified in [observe.sh](https://github.com/RHINO-Experiment/rhino-daq/blob/main/observe.sh)
+
 ## observationParams
 
 runLength: Length of an observation block in seconds.
@@ -77,7 +79,7 @@ cadence: Temperature reading cadence (Seconds).
 
 ### switches         
  
-active: true
+active: Enabling bool
 
 optimisedObserving: To be implemented
 
