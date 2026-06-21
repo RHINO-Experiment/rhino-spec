@@ -2,7 +2,7 @@
 
 _The power supply system for powering the various components_
 
-Last updated: 2026-06-20
+Last updated: 2026-06-21
 
 The primary power supply goes to the backend box via a mains connection (240V AC, 50 Hz), 
 which has a UK mains plug going to an IEC C13 connector. The C13 input has a filter. This 
@@ -100,6 +100,11 @@ controlled by the Arduino. This would allow switching the heater on and off for 
 It would also allow use of PWM to adjust the heater voltage and control its temperature, 
 although would introduce a new source of EMI.
 
+<img width="30%" alt="PXL_20260519_150711902" src="https://github.com/user-attachments/assets/e087eae3-e271-42c2-b1ef-5312e8b39002" />
+<img width="30%" alt="1000079220" src="https://github.com/user-attachments/assets/decf4c83-ef44-47ad-b339-6419818a3920" />
+<img width="30%" alt="1000079410" src="https://github.com/user-attachments/assets/9e71c5a4-f9a4-4d4a-8f1e-babe30ecc4cd" />
+<img width="30%" alt="power_supply_cover" src="https://github.com/user-attachments/assets/fc7c6414-8b43-40ff-b5dc-6e66ead32044" />
+
 
 ## Older switched-mode version (pre-June 2026)
 
@@ -117,9 +122,7 @@ and 15 - 12V (7812). The board has 0.33 uF capacitors on the input and output of
 voltage regulator to help improve stability.
 
 <img width="30%" alt="PXL_20260604_150919978" src="https://github.com/user-attachments/assets/dc7bffa8-127b-402c-8806-236a72182372" />
-<img width="30%" alt="PXL_20260519_150711902" src="https://github.com/user-attachments/assets/e087eae3-e271-42c2-b1ef-5312e8b39002" />
-<img width="30%" alt="1000079220" src="https://github.com/user-attachments/assets/decf4c83-ef44-47ad-b339-6419818a3920" />
-<img width="30%" alt="1000079410" src="https://github.com/user-attachments/assets/9e71c5a4-f9a4-4d4a-8f1e-babe30ecc4cd" />
+
 
 
 
