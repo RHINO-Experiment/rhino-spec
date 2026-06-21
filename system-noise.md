@@ -9,7 +9,8 @@ TODO: Basic system temperature model, including LST-dependent sky contribution.
 
 ## Target sensitivity
 
-We will assume the basic radiometer equation, $\sigma_T = T_{\rm sys} / \sqrt{\delta \nu\, t_{\rm obs}}$. 
+We will assume the basic radiometer equation, 
+$\sigma_T = T_{\rm sys} / \sqrt{\delta \nu t_{\rm obs}}$. 
 If we assume 500 kHz channels and an average of 6 hours of observing per night, we 
 can work out how long it would take to reach the 50 mK noise sensitivity level per 
 channel, which should be sufficient for a reasonably significant detection of 
