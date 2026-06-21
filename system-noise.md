@@ -23,4 +23,5 @@ the fraction of time spend observing through the antenna vs other sources.
 
 For any reasonable system temperature of order a few thousand Kelvin, only one night 
 of observing is needed to reach this level, assuming an efficiency factor of unity. 
-For more reasonable efficiency factors, this is still only a few nights.
+For more reasonable efficiency factors, this is still only a few nights. For example, 
+for $T_{\rm sys} = 5000 {\rm K}$, a single 6-hour observation yields $\sigma_T = 48{\rm mK}$.
