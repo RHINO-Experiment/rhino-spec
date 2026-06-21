@@ -23,3 +23,4 @@ Specification documentation for the RHINO receiver and other systems
 * [Observing logs](observing/README.md)
 * [RFI and spectral artefacts](rfi-and-spectral-artefacts.md)
 * [Site](site.md)
+* [System noise properties](system-noise.md)
