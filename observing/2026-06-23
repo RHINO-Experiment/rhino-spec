@@ -1,0 +1,27 @@
+RHINO log 2026-06-23
+====================
+
+Observer name: Jordan Norris
+
+Conditions: Laboratory
+
+Purpose: Calibration and Commissioning
+
+# System configuration
+
+LNA0: on
+
+LNA1: disconnected
+
+NS0:  on
+
+ANT0: none (observing noise diode)
+
+## Configuration notes
+All Internal Observation for characterisation.
+
+# Observing notes
+All Internal Observation for characterisation. Will be looking at the noise-diode in place of an antenna
+for characterisation and a test for the GCR. Observation begain at 16:40 BST and will run until 2026/06/25.
+
+
