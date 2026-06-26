@@ -6,6 +6,7 @@ Specification documentation for the RHINO receiver and other systems
 * [Calibration loads](calibration-loads.md)
 * [Control cable](control-cable-and-board.md)
 * [Dipole antenna](dipole-antenna.md)
+* [EMI suppression](emi-suppression.md)
 * [Horn antenna](horn-antenna.md)
 * [Low-noise amplifiers](lnas.md)
 * [Power supply](power-supply.md)
