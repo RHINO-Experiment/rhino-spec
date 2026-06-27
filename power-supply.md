@@ -2,7 +2,7 @@
 
 _The power supply system for powering the various components_
 
-Last updated: 2026-06-21
+Last updated: 2026-06-27
 
 The primary power supply goes to the backend box via a mains connection (240V AC, 50 Hz), 
 which has a UK mains plug going to an IEC C13 connector. The C13 input has a filter. This 
@@ -99,6 +99,12 @@ yet, but it would be useful to connect these components via a MOSFET that can be
 controlled by the Arduino. This would allow switching the heater on and off for safety. 
 It would also allow use of PWM to adjust the heater voltage and control its temperature, 
 although would introduce a new source of EMI.
+
+### Tests on 2026-06-26
+
+After adding TVS diodes and adjusting the current limiter potentiometer on the linear power supply, Phil was able to get the supply and power distribution board running for an hour or so with the heated load attached to the unregulated 24V line and 50 Ohm power resistors attached to each of the regulated 12V lines. This was run on a hot day in the lab (33 deg C outside), so was something of a stress test. The supply seemed quite stable in terms of both voltage and current. The heated load got to approximately 145 deg C in its closed box (according to a rough calculation of the measured Pt-1000 thermistor resistance, which got up to about 1.6 kOhm), but may not have finished heating at the point that the test was ended.
+
+Earlier in the week, a load of about 700 mA was put on the regulated 12V line with the LM317 regulator. Good voltage drops were obtained, but the system shut down after a few minutes, probably because of the voltage regulators overheating. So, it is probably not advisable to try to run the Odroid directly from this supply. Instead, a medical-grade switched mode power supply has been ordered.
 
 <img width="30%" alt="PXL_20260519_150711902" src="https://github.com/user-attachments/assets/e087eae3-e271-42c2-b1ef-5312e8b39002" />
 <img width="30%" alt="1000079220" src="https://github.com/user-attachments/assets/decf4c83-ef44-47ad-b339-6419818a3920" />
