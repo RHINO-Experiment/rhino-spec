@@ -1,0 +1,109 @@
+# RHINO log 2026-06-24 
+
+Observer name: Rashi Srivastava
+
+## Conditions
+
+Laboratory
+
+## Purpose
+
+Six-hour stability and calibration-state test using repeated Dicke-cycle observations.  
+The run was designed to characterise the noise diode, test source, and calibration states over a longer integration time, and to study how the state powers and gain-normalised quantities behave under averaging.
+
+## System configuration
+
+LNA0: on
+
+LNA1: disconnected
+
+NS0: on
+
+ANT0: connected
+
+VNA: not active during observation
+
+Observation length: approximately 6 hours
+
+Data file: 2026-06-18_17-29-33_obs.hd5f
+
+## Switching configuration
+
+The observation used a Dicke-style switching pattern in which source states were interleaved with load and heated-load measurements.
+
+The main states observed were:
+
+- noise_diode
+- test_src
+- open
+- short
+- long_open
+- long_short
+
+Each switch dwell was approximately 53 s. The source states were cycled through, with load and heated_load repeatedly used as reference/calibration states.
+
+## Data products checked
+
+The following diagnostics were produced from the run:
+
+- averaged PSD spectra for each switch state
+- noise_diode, load, and heated_load averaged spectra
+- noise-diode excess spectrum:  
+  \(P_{\rm NS} - P_L\)
+- noise-diode/load ratio:  
+  \(P_{\rm NS}/P_L\)
+- band-averaged source powers \(P_{\rm src}(t)\)
+- gain-normalised state quantities \(q_s\)
+- Allan deviation of \(q_s\)
+- Allan/radiometer-style averaging tests for state stability
+
+## Noise diode characterisation
+
+The noise diode was clearly visible above the load state in the averaged spectra.  
+The difference
+
+\[
+P_{\rm NS} - P_L
+\]
+
+was used to estimate the excess power injected by the noise diode above the load reference. This helps identify whether the diode is injecting a clear and positive additional signal across the band.
+
+The ratio
+
+\[
+P_{\rm NS}/P_L
+\]
+
+was used as a relative stability diagnostic. Since both states share much of the same receiver gain and bandpass response, this ratio helps check whether the diode remains stable relative to the load over time.
+
+## Allan deviation/stability analysis
+
+Allan deviation was used to test how the state powers and gain-normalised quantities behave as the averaging time is increased.
+
+For white/radiometer-like noise, the scatter should decrease approximately as:
+
+\[
+\sigma \propto \tau^{-1/2}
+\]
+
+where \(\tau\) is the averaging time.
+
+The Allan analysis showed that averaging does reduce scatter, but the behaviour is not perfectly radiometer-noise limited over all timescales. Some states flatten or rise at longer averaging times, indicating slow drift, state-dependent instability, or residual systematics.
+
+The gain-normalised \(q_s\) diagnostics showed that some states are more stable than others. The open state appeared comparatively stable, while test_src, long_short, and noise_diode-related quantities showed larger fractional variation. This suggests that not all calibration/source states are equally reliable over long integration times.
+
+## Interpretation
+
+This run is useful as a stability and noise-diode diagnostic run. It shows that:
+
+- the noise diode is visible above the load in averaged spectra;
+- \(P_{\rm NS} - P_L\) provides the diode excess spectrum;
+- \(P_{\rm NS}/P_L\) provides a useful check of diode stability relative to load;
+- the data average down with time, but not always with ideal \(\tau^{-1/2}\) radiometer scaling;
+- some states show evidence of slow drift or state-dependent instability;
+
+## Observing notes
+
+This file should be used primarily for characterising state stability, noise-diode behaviour, and averaging performance.
+
+For final calibration use, the noise-diode stability should be checked across all consecutive 6-hour files. In particular, the band-averaged \(P_{\rm NS}/P_L\) ratio should be inspected for jumps, drifts, or file-to-file changes.
