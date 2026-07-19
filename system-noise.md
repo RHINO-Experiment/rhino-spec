@@ -1,7 +1,7 @@
 # System noise properties
 _Estimates of the system temperature and observing time required for signal detection_
 
-Last updated: 2026-06-21
+Last updated: 2026-07-19
 
 ## System temperature
 
@@ -25,3 +25,5 @@ For any reasonable system temperature of order a few thousand Kelvin, only one n
 of observing is needed to reach this level, assuming an efficiency factor of unity. 
 For more reasonable efficiency factors, this is still only a few nights. For example, 
 for $T_{\rm sys} = 5000 {\rm K}$, a single 6-hour observation yields $\sigma_T = 48{\rm mK}$.
+
+For reference, for a single 1-second integration in a frequency channel of width 100 kHz and $T_{\rm sys} = 5000 {\rm K}$, $\sigma_T = 15.8{\rm K}$. This increases to 50 K for a 10 kHz channel width.
