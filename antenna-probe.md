@@ -1,8 +1,7 @@
-Antenna probe
--------------
+# Antenna probe
 _The probe for the horn antenna that connects to a coaxial cable output_
 
-Last updated: 2026-06-21
+Last updated: 2026-07-19
 
 The probe is made from a piece of round (assumed aluminium) pipe, approximately 1209mm long. 
 The ends are not cut perfectly flush. The diameter (outer to outer) is about 49mm. The metal 
@@ -29,10 +28,17 @@ The support structure for the probe within the waveguide has not yet been proper
 but is currently made from a long piece of wood with velcro cable ties used to attach the 
 aluminium tube to it.
 
+## Copper tape ground plate
+
+For testing, Ahmed and Jordan have fashioned a plate out of copper tape that has an SMA connector for attaching the whip antenna. Wire wool was used to clean the rust off the waveguide mesh and the copper tape plate was then taped to the side in order to secure a good ground contact. This resulted in a very good probe S11, albeit in a narrower band (2026-07-14).
+
 <img width="30%" alt="probe_pipe_diameter" src="https://github.com/user-attachments/assets/4f6b6868-a001-44fa-8f09-3f76953057c6" />
 <img width="30%" alt="probe_copper_tape_end" src="https://github.com/user-attachments/assets/7004eba9-e715-46e6-af74-b33ed62034a5" />
 <img width="30%" alt="probe_to_7_strand_wire" src="https://github.com/user-attachments/assets/6077bde8-64aa-459b-a094-67c17318da84" />
 <img width="30%" alt="probe_port_1" src="https://github.com/user-attachments/assets/f18c2620-9c55-45f8-b7b5-8bb92c82b53a" />
 <img width="30%" alt="probe_port_2" src="https://github.com/user-attachments/assets/cf14b7fb-1e76-4d8a-80fb-a865575e9aa2" />
 <img width="30%" alt="probe_in_waveguide" src="https://github.com/user-attachments/assets/fce41cd8-5085-4ba4-9c71-c72e9d68bfd1" />
+<img width="30%" alt="1000081282" src="https://github.com/user-attachments/assets/762eb3e8-152f-424a-8373-9db9bf4f199a" />
+<img width="30%" alt="1000081288" src="https://github.com/user-attachments/assets/ae4a4110-aa78-4e22-8546-123d7292df7d" />
+
 
