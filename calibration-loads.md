@@ -39,8 +39,10 @@ Currently on 5 V supply with maximum current draw of 1 A
 Noise diode
 -----------
 Prior to 2026/08/25 the noise diode being used (silver) had the following ENR spectrum.
+
 <img width="25%" alt="10000788015" src="https://github.com/user-attachments/assets/1a411173-daa1-4180-a30e-1444bc138461" />
 It has since been replaced with a new noise-diode (blue) with the following ENR spectrum.
+
 <img width="25%" alt="10000788156" src="https://github.com/user-attachments/assets/4d43d244-7f9e-430f-84cd-f9d06247428c" />
 
 
